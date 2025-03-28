@@ -61,6 +61,16 @@
                 <configuration>
                 <suiteXmlFiles>
 					<suiteXmlFile>testngBookedItineraryPage.xml</suiteXmlFile>
+					<suiteXmlFile>testngBookingHotels.xml</suiteXmlFile>
+					<suiteXmlFile>testngChangePAssword.xml</suiteXmlFile>
+					<suiteXmlFile>testngHomeContentVisiblity.xml</suiteXmlFile>
+					<suiteXmlFile>testngInvalidLogin.xml</suiteXmlFile>
+					<suiteXmlFile>testngInvalidRegister.xml</suiteXmlFile>
+					<suiteXmlFile>testngRegister.xml</suiteXmlFile>
+					<suiteXmlFile>testngSearchHotel.xml</suiteXmlFile>
+					<suiteXmlFile>testngValidateBookHotelPage.xml</suiteXmlFile>
+					<suiteXmlFile>testngValidateSearchHotel.xml</suiteXmlFile>
+					<suiteXmlFile>testngValidLogin.xml</suiteXmlFile>
                 </suiteXmlFiles>
                </configuration>
             </plugin>
