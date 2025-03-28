@@ -1,0 +1,4 @@
+base\ProjectSpecificationMethods.class
+page\BookHotelPage.class
+page\BookingConfirmationPage.class
+utils\Utility.class
