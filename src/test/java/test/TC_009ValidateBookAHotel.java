@@ -21,7 +21,7 @@ public class TC_009ValidateBookAHotel extends ProjectSpecificationMethods {
 	
 	@Test(dataProvider = "readData")
 	public  void BookingHotelsTest(String Un, String Pass, String CheckIn, String CheckOut,String FName,
-			                       String lNam,String addr,String CardNo,String ccv, String TestType, String ExpectedResult) throws InterruptedException
+			                       String lNam,String addr,String CardNo, String ccv, String TestType, String ExpectedResult) throws InterruptedException
 	{
 	LoginPage obj= new LoginPage(driver);
 	       obj.EnterLUn(Un)

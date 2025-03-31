@@ -70,7 +70,7 @@ public class RegisterPage extends ProjectSpecificationMethods{
 	}
 	public RegisterPage ClickCaptcha() throws InterruptedException 
 	{
-		Thread.sleep(50000);
+		Thread.sleep(30000);
 		clickCaptcha.click();		
 		return this;
 	}

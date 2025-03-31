@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-28T22:30:21 IST" name="Suite" finished-at="2025-03-28T22:30:28 IST" duration-ms="6590">
+  <suite started-at="2025-03-29T09:15:56 IST" name="Suite" finished-at="2025-03-29T09:17:13 IST" duration-ms="76859">
     <groups>
     </groups>
-    <test started-at="2025-03-28T22:30:21 IST" name="Test" finished-at="2025-03-28T22:30:28 IST" duration-ms="6590">
-      <class name="test.TC_011HomeContentTest">
-        <test-method is-config="true" signature="reportIniatialization()[pri:0, instance:test.TC_011HomeContentTest@5b12b668]" started-at="2025-03-28T22:30:21 IST" name="reportIniatialization" finished-at="2025-03-28T22:30:21 IST" duration-ms="303" status="PASS">
+    <test started-at="2025-03-29T09:15:56 IST" name="Test" finished-at="2025-03-29T09:17:13 IST" duration-ms="76859">
+      <class name="test.TC_001RegisterTest">
+        <test-method is-config="true" signature="reportIniatialization()[pri:0, instance:test.TC_001RegisterTest@5b12b668]" started-at="2025-03-29T09:15:56 IST" name="reportIniatialization" finished-at="2025-03-29T09:15:56 IST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportIniatialization -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_011HomeContentTest@5b12b668]" started-at="2025-03-28T22:30:21 IST" name="setup" finished-at="2025-03-28T22:30:21 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_001RegisterTest@5b12b668]" started-at="2025-03-29T09:15:56 IST" name="setup" finished-at="2025-03-29T09:15:56 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_011HomeContentTest@5b12b668]" started-at="2025-03-28T22:30:21 IST" name="testDetails" finished-at="2025-03-28T22:30:21 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_001RegisterTest@5b12b668]" started-at="2025-03-29T09:15:56 IST" name="testDetails" finished-at="2025-03-29T09:15:56 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="LaunchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_011HomeContentTest@5b12b668]" started-at="2025-03-28T22:30:21 IST" name="LaunchBrowser" finished-at="2025-03-28T22:30:27 IST" duration-ms="5748" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001RegisterTest@5b12b668]" started-at="2025-03-29T09:15:57 IST" name="LaunchBrowser" finished-at="2025-03-29T09:16:09 IST" duration-ms="11406" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,19 +35,46 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="HomeContentTest()[pri:0, instance:test.TC_011HomeContentTest@5b12b668]" started-at="2025-03-28T22:30:27 IST" name="HomeContentTest" finished-at="2025-03-28T22:30:27 IST" duration-ms="356" status="PASS">
+        <test-method signature="ValidRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001RegisterTest@5b12b668]" started-at="2025-03-29T09:16:09 IST" name="ValidRegisterTest" data-provider="readData" finished-at="2025-03-29T09:17:13 IST" duration-ms="63834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharmila24567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharmila24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sharmila24]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SharmilaD]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sharmila.5678@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeContentTest -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:test.TC_011HomeContentTest@5b12b668]" started-at="2025-03-28T22:30:28 IST" name="closingBrowser" finished-at="2025-03-28T22:30:28 IST" duration-ms="176" status="PASS">
+        </test-method> <!-- ValidRegisterTest -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:test.TC_001RegisterTest@5b12b668]" started-at="2025-03-29T09:17:13 IST" name="closingBrowser" finished-at="2025-03-29T09:17:13 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:test.TC_011HomeContentTest@5b12b668]" started-at="2025-03-28T22:30:28 IST" name="closeReport" finished-at="2025-03-28T22:30:28 IST" duration-ms="390" status="PASS">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:test.TC_001RegisterTest@5b12b668]" started-at="2025-03-29T09:17:13 IST" name="closeReport" finished-at="2025-03-29T09:17:14 IST" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
-      </class> <!-- test.TC_011HomeContentTest -->
+      </class> <!-- test.TC_001RegisterTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

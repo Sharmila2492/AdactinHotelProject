@@ -1,4 +1,4 @@
-base\ProjectSpecificationMethods.class
 page\BookHotelPage.class
-page\BookingConfirmationPage.class
+base\ProjectSpecificationMethods.class
 utils\Utility.class
+page\BookingConfirmationPage.class

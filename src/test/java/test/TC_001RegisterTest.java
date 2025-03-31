@@ -33,7 +33,6 @@ public class TC_001RegisterTest extends ProjectSpecificationMethods {
 		          .ClickCaptcha()
 		          .ClickCheckBox()
 		          .ClickRegBtn()
-		         // .VerifyRegCode()
 		          .LoginLink();
 		          
 	} 

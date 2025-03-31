@@ -8,17 +8,17 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="test.TC_009ValidateBookAHotel">
+      <class name="test.TC_002InvalidRegisterData">
         <methods>
-          <include name="LaunchBrowser"/>
-          <include name="BookingHotelsTest" invocation-numbers="0"/>
-          <include name="testDetails"/>
           <include name="setup"/>
+          <include name="LaunchBrowser"/>
+          <include name="ValidRegisterTest" invocation-numbers="4"/>
+          <include name="testDetails"/>
           <include name="reportIniatialization"/>
           <include name="closeReport"/>
           <include name="closingBrowser"/>
         </methods>
-      </class> <!-- test.TC_009ValidateBookAHotel -->
+      </class> <!-- test.TC_002InvalidRegisterData -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
